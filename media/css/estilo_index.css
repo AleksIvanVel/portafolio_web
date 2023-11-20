@@ -76,3 +76,34 @@ body{
     color: #aee637;
 }
 
+.iconos{
+    font-size: 50px;
+}
+
+.iconos i{
+    color: #149c68;
+}
+
+.iconos i:hover{
+    color:#38c958;
+}
+
+.btn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: #149c68;
+    color: #ffffff;
+    padding: 15px 15px;
+    border-radius: 20%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color:#38c958;
+    color: #383939;
+}
