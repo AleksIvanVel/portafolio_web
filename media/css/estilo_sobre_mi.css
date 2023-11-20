@@ -18,6 +18,11 @@ body{
 .logo a{
     display: flex;
     height: 170px;
+    transition: 0.5s;
+}
+
+.logo a:hover{
+    transform: translateX(-3px);
 }
 
 .logo img{
@@ -29,7 +34,7 @@ body{
 .menu_item li{
     list-style: none;
     margin-right: 5px;
-    margin-left: -40px;
+    margin-left: -35px;
 }
 
 .menu_item a{
@@ -44,7 +49,8 @@ body{
     -o-border-radius: 10px;
     cursor: pointer;
     text-decoration: none;
-    color: #ffffff;    
+    color: #ffffff; 
+    transition: 0.5s;   
 }
 
 .menu_item a:hover{

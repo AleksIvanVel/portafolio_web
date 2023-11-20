@@ -18,6 +18,11 @@ body{
 .logo a{
     display: flex;
     height: 170px;
+    transition: 0.5s;
+}
+
+.logo a:hover{
+    transform: translateX(-3px);
 }
 
 .logo img{
@@ -29,7 +34,7 @@ body{
 .menu_item li{
     list-style: none;
     margin-right: 5px;
-    margin-left: -40px;
+    margin-left: -35px;
 }
 
 .menu_item a{
@@ -44,12 +49,14 @@ body{
     -o-border-radius: 10px;
     cursor: pointer;
     text-decoration: none;
-    color: #ffffff;    
+    color: #ffffff; 
+    transition: 0.5s;   
 }
 
 .menu_item a:hover{
     background-color:#38c958 ;
     color:#383939;
+    transform: translateX(-5px);
 }
 
 .contenido_principal{
@@ -82,10 +89,12 @@ body{
 
 .iconos i{
     color: #149c68;
+    transition: 0.5s;
 }
 
 .iconos i:hover{
     color:#38c958;
+    transform: translateX(-2px);
 }
 
 .btn{
@@ -100,10 +109,12 @@ body{
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 .btn:hover{
     cursor: pointer;
     background-color:#38c958;
     color: #383939;
+    transform: translateX(-2px);
 }
