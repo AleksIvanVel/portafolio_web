@@ -57,3 +57,36 @@ body{
     background-color:#38c958 ;
     color:#383939;
 }
+
+.contenido_principal{
+    position: fixed;
+    margin-left: 200px;
+    height: 100%;
+    margin-top: 200px;
+}
+
+.contenido_principal h1{
+    display: flex;
+    text-align: justify;
+    height: 10%;
+    font-size: 50px;
+    color:#149c68;
+}
+
+.contenido_principal p{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#texto-1{
+    font-size: 15px;
+    text-align: justify;
+    margin-right: 300px;
+}
+
+#texto-2{
+    font-size: 30px;
+    text-align: justify;
+    color:#149c68;
+    margin-right: 300px;
+}
