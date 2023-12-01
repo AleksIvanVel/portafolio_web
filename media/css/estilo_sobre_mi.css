@@ -56,6 +56,17 @@ body{
 .menu_item a:hover{
     background-color:#38c958 ;
     color:#383939;
+    transform: translateX(-5px);
+}
+
+#sobre_mi{
+    background-color:#38c958;
+    color:#383939;
+    border-radius: 20%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .contenido_principal{

@@ -59,61 +59,12 @@ body{
     transform: translateX(-5px);
 }
 
-.contenido_principal{
-    position: fixed;
-    margin-left: 200px;
-    height: 100%;
-    margin-top: 200px;
-}
-
-.contenido_principal h1{
-    display: flex;
-    text-align: justify;
-    height: 10%;
-    font-size: 50px;
-    color:#149c68;
-}
-
-.contenido_principal p{
-    font-size: 20px;
-    color: #ffffff;
-}
-
-#correo_contact{
-    color: #aee637;
-}
-
-.iconos{
-    font-size: 50px;
-}
-
-.iconos i{
-    color: #149c68;
-    transition: 0.5s;
-}
-
-.iconos i:hover{
-    color:#38c958;
-    transform: translateX(-2px);
-}
-
-.btn{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    background-color: #149c68;
-    color: #ffffff;
-    padding: 15px 15px;
+#skills{
+    background-color:#38c958;
+    color:#383939;
     border-radius: 20%;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    text-decoration: none;
-    transition: 0.5s;
-}
-
-.btn:hover{
-    cursor: pointer;
-    background-color:#38c958;
-    color: #383939;
 }
