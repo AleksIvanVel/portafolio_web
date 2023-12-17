@@ -1,119 +1,129 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #383939;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;4000;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family:'Poppins', sans-serif;
 }
 
-.menu{
+:root{
+    --bg-color:#383939;
+    --second-bg-color:#383939;
+    --text-color:#fff;
+    --main-color:#38c958;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+section{
+    min-height:100vh;
+    padding: 10rem 9% 2rem;
+}
+
+.header{
     position: fixed;
-    width: 180px;
-    height: 100%;
-    z-index: 1;
     top: 0;
     left: 0;
-    background-color: #149c68;
-    overflow-x: hidden;
-    padding-top: 20px;
-}
-
-.logo a{
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
     display: flex;
-    height: 170px;
-    transition: 0.5s;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
 }
 
-.logo a:hover{
-    transform: translateX(-3px);
+.logo{
+    font-size: 2.5rem;
+    color:var(--main-color);
+    font-weight: 600;
+    cursor: default;
 }
 
-.logo img{
-    background-size:cover ;
+.navbar a{
+    font-size: 1.7rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: var(--main-color);
+}
+
+#menu-icon{
+    font-size: 3.6rem;
+    color: var(--main-color);
+    display: none;
+}
+
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content h3{
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.home-content h1{
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--main-color);
+    text-shadow: 0 0 1rem var(--main-color);
+}
+
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid var(--main-color);
     border-radius: 50%;
-    margin: 0 auto;
+    font-size: 2rem;
+    color: var(--main-color);
+    margin: 3.5rem 1.5rem 3rem 0;
+    transition: .5s ease;
 }
 
-.menu_item li{
-    list-style: none;
-    margin-right: 5px;
-    margin-left: -35px;
-}
-
-.menu_item a{
-    padding: 16px;
-    font-size: 20px;
-    display: block;
-    text-align: justify;
-    border-radius: 20%;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    cursor: pointer;
-    text-decoration: none;
-    color: #ffffff; 
-    transition: 0.5s;   
-}
-
-.menu_item a:hover{
-    background-color:#38c958 ;
-    color:#383939;
-    transform: translateX(-5px);
-}
-
-.contenido_principal{
-    position: fixed;
-    margin-left: 200px;
-    height: 100%;
-    margin-top: 200px;
-}
-
-.contenido_principal h1{
-    display: flex;
-    text-align: justify;
-    height: 10%;
-    font-size: 50px;
-    color:#149c68;
-}
-
-.contenido_principal p{
-    font-size: 20px;
-    color: #ffffff;
-}
-
-#correo_contact{
-    color: #aee637;
-}
-
-.iconos{
-    font-size: 50px;
-}
-
-.iconos i{
-    color: #149c68;
-    transition: 0.5s;
-}
-
-.iconos i:hover{
-    color:#38c958;
-    transform: translateX(-2px);
+.social-media a:hover{
+    background: var(--main-color);
+    color: var(--second-bg-color);
+    box-shadow: 0 0 1rem var(--main-color);
 }
 
 .btn{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    background-color: #149c68;
-    color: #ffffff;
-    padding: 15px 15px;
-    border-radius: 20%;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    text-decoration: none;
-    transition: 0.5s;
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: var(--second-bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
 }
 
 .btn:hover{
-    cursor: pointer;
-    background-color:#38c958;
-    color: #383939;
+    box-shadow: none;
 }
