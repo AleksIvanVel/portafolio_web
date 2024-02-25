@@ -33,6 +33,7 @@ section{
     padding: 10rem 9% 2rem;
 }
 
+/* ESTILO DE NAVBAR */
 .navbar{
     position: fixed;
     top: 0;
@@ -75,7 +76,7 @@ section{
 }
 
 
-
+/* ESTILO DE INDEX.HTML */
 .home{
     display: flex;
     justify-content: center;
@@ -118,18 +119,8 @@ section{
     box-shadow: 0 0 1rem var(--main-color);
 }
 
-.home-content .btn{
-    display: inline-block;
-    padding: 1rem 2.8rem;
-    background: var(--main-color);
-    border-radius: 4rem;
-    font-size: 1.6rem;
-    color: var(--second-bg-color);
-    letter-spacing: .1rem;
-    font-weight: 600;
-    transition: .5s ease;
-}
 
+/* ESTILO DE ABOUT.HMTL */
 .about{
     display: flex;
     justify-content: center;
@@ -184,6 +175,8 @@ section{
 
 }
 
+
+/* ESTILO DE PORTFOLIO.HTML */
 .portfolio h2{
     text-align: center;
     font-size: 3rem;
@@ -216,6 +209,8 @@ section{
     font-size: 1.6rem;
 }
 
+
+/* ESTILO DE CONTACTO.HTML */
 .form-content{
     background-color: var(--second-bg-color);
     padding: 50px;
@@ -248,6 +243,29 @@ section{
     outline: 2px solid #38c958;
 }
 
+
+/* ESTILO DE SUBMIT.HTML */
+.submit-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-content h3{
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.submit-content h1{
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--main-color);
+    text-shadow: 0 0 1rem var(--main-color);
+}
+
+
+/* ESTILO DE BOTONES */
 .btn{
     display: inline-block;
     padding: 1rem 2.8rem;
