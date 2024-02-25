@@ -130,10 +130,6 @@ section{
     transition: .5s ease;
 }
 
-.btn:hover{
-    box-shadow: 0 0 1rem var(--main-color);
-}
-
 .about{
     display: flex;
     justify-content: center;
@@ -220,7 +216,39 @@ section{
     font-size: 1.6rem;
 }
 
-.portfolio .btn{
+.form-content{
+    background-color: var(--second-bg-color);
+    padding: 50px;
+    border-radius: 25px;
+}
+
+.contacto h2{
+    text-align: center;
+    font-size: 3rem
+}
+
+.contacto h2 span{
+    color: var(--main-color);
+    text-shadow: 0 0 1.4rem var(--main-color);
+}
+
+.contacto label{
+    font-size: 17px;
+}
+
+.contacto .form-control{
+    padding: 17px 14px;
+    background-color: var(--bg-color);
+    border: 0;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.form-control:focus{
+    outline: 2px solid #38c958;
+}
+
+.btn{
     display: inline-block;
     padding: 1rem 2.8rem;
     background: var(--main-color);
@@ -233,46 +261,5 @@ section{
 }
 
 .btn:hover{
-    box-shadow: none;
-    box-shadow: 0 0 1rem var(--main-color);
-}
-
-.contact h2{
-    margin-bottom: 3rem;
-}
-.contact form{
-    max-width: 70rem;
-    margin: 1rem auto;
-    text-align: center;
-    margin-bottom: 3rem;
-}
-
-.contact form .input-box{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.contact form .input-box input,
-.contact form textarea{
-    width: 100%;
-    padding: 1.5rem;
-    font-size: 1.6rem;
-    color: var(--text-color);
-    background: var(--second-bg-color);
-    border-radius: .8rem;
-    margin: .7rem 0;
-}
-
-.contact form .input-box input{
-    width: 49%;
-}
-
-.contact form textarea{
-    resize: none;
-}
-
-.contact form .btn{
-    margin-top: 2rem;
-    cursor: pointer;
+    box-shadow: 0 0 2rem var(--main-color);
 }
