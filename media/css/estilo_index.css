@@ -232,6 +232,7 @@ section{
 }
 
 .contacto .form-control{
+    color: var(--main-color);
     padding: 17px 14px;
     background-color: var(--bg-color);
     border: 0;
